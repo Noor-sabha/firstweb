@@ -1,0 +1,38 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 1.1rem;
+    background:seagreen;
+}
+.landing , .sec-3{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.landing{
+    width:100%
+    height: 95vh;
+    background-image: hill.jpg;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sec-3{
+    height: 100vh;
+    background-image: image7.jpg;
+}
+@media(max-width:710px){
+    .sec-3{
+        height: 300vh;
+        background-position: bottom;
+        background-image: image8.jpg;
+    }
+    .sec-3 .row{
+        margin-top: 2rem;
+    }
+}
